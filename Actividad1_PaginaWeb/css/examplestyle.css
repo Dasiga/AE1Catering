@@ -1,0 +1,44 @@
+/*.cnt_avatar{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+*/
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+hr{
+    max-width: 20%;
+    margin-bottom: 50px;
+}
+
+.team_content{
+    display: flex;
+    justify-content: center;
+}
+
+.avatar_content{
+    margin: 5%;
+ 
+    text-align: center;
+}
+
+.avatar{
+    width: 300px;
+    border-radius: 25%;
+}
+
+.compromiso_content{
+    
+    float: left;
+    align-items: center;
+    width: 50%;
+}
+
+.small_image{
+    width: 50%;
+}

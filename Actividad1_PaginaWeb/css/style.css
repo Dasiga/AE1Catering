@@ -6,7 +6,6 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-
 }
 
 body { 
@@ -415,5 +414,25 @@ hr {
         display: initial;
     }
 
+}
+
+#team-id{
+    clear: both;
+}
+
+.cnt_team{
+
+    float: right;
+    display: "flex";
+
 
 }
+
+.avatar_circle{
+    height: 250px;
+    width: 250px;    
+
+    border-radius: 50%;
+    
+}
+
