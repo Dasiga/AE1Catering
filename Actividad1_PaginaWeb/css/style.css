@@ -416,23 +416,39 @@ hr {
 
 }
 
-#team-id{
+.cnt_team{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    margin-bottom: 50px;
+}
+
+.circle_image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.compromiso_content{
+   float: left;
+}
+
+.compromiso_title{
+   
+}
+.compromiso_photo{
+    width: 500px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.compromiso_body{
+    text-align: justify;
+}
+
+
+footer{
     clear: both;
 }
-
-.cnt_team{
-
-    float: right;
-    display: "flex";
-
-
-}
-
-.avatar_circle{
-    height: 250px;
-    width: 250px;    
-
-    border-radius: 50%;
-    
-}
-

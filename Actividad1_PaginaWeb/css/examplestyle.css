@@ -13,8 +13,10 @@ h2{
 }
 hr{
     max-width: 20%;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
+
+
 
 .team_content{
     display: flex;
@@ -39,6 +41,7 @@ hr{
     width: 50%;
 }
 
-.small_image{
+.compromiso_photo{
     width: 50%;
+   
 }
