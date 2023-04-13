@@ -38,23 +38,31 @@
     </section>
 
     <main class="products container">
+        <!-- 
+            Contenedor del título y el slogan -->
         <div class = "main somos container">
             <h2>Quienes somos</h2>
+            <hr class="divider">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rerum natus ratione ut, quis sed tempore
                 recusandae eligendi porro? Modi aspernatur adipisci facere voluptas fugit repellendus eum hic sapiente
                 corrupti.
             </p>
-            <hr>
-            <br>
+            
+            
         </div>
 
+        <!-- Titulo y separador de "Equipo"-->
         <h2 id="team-id">Equipo</h2>
-        <hr>
-        <br>
+        <hr class="divider">
         
+        <!-- Contenedor de los miembros del equipo -->
         <div class="cnt_team">
 
+            <!--
+                 Cada grupo  contiene el "avatar" el "nombre" y el "correo" de un miembro del equipo
+                 Como el avatar tendrá un formato "circular" se le asignó una clase
+            -->
             <div class="cnt_avatar">
                 <img class="circle_image" src="images/myAvatar1.png">
                 <h3>Pablo</h3>
@@ -78,11 +86,17 @@
 
         </div> 
         
+        <!-- Contenedor de "Compromisos"-->
         <section class="compromisos-section">
-            <h1>Nuestros Compromisos</h1>
-            <hr/>
-            <br/>
+            <h2>Nuestros Compromisos</h2>
+            <hr class="divider">
 
+            <!--  
+                Grupo formado por el "título" del contenido, su "imagen" y una "descripción"
+                del mismo
+
+                Para poder darle el formato deseado, se le asignó a cada <> dentro una clase
+            -->
             <div class="compromiso_content">
                 <h4 class="compromiso_title">COMPROMISO</h4>
                 <img class="compromiso_photo" src="images/_compromisos1.jpg">
@@ -121,17 +135,26 @@
    
 
     <footer class="footer container">
+        <!-- 
+            Contendor basado en un "grid" de 3 columnas nuestro footer:
+                . Nombre de la empresa y una slogan
+                . Redes sociales
+                . Datos sobre nosotros como "telefono", "dirección" y "email"
+            Con un testimonio al final
+        -->
         <div class="grid-footer">
+            <!-- Grupo contenedor para poder dar formato al grid-->
             <div class="box-footer">
                 <h2>Empresa</h2>
-                <hr>
+                <hr/>
                 <p id="footer-description">Cras ut diam quis quam pulvinar venenatis eget a libero. 
                     Curabitur varius scelerisque ante, convallis semper mi varius a. 
                 </p>
             </div>
             <div class="box-footer">
                 <h2>Siguenos</h2>
-                <hr>
+                <hr/>
+                <!-- Contenedor de iconos con link para poder editarlo en css -->
                 <div class="social-media"> 
                     <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram_log.png" ></a>
                     <a href="https://twitter.com/" target="_blank"><img src="images/twitter_log.png" href = ""></a>                    
@@ -142,6 +165,9 @@
             <div class="box-footer">
                 <h2>Contacta con nosotros</h2>
                 <hr>    
+                <!--Contenedor con "imagen" "titulo" y "cuerpo"
+                    para dar un formato en css con "float" a la "imagen"
+                -->
                 <div class="inner-box-footer">
                     <img src="images/phone_log.png">
                     <h2>Telefono</h2>
@@ -159,6 +185,10 @@
                 </div>
             </div>
         </div>  
+        <!-- Contenedor para dar formato al terminal
+            . Link a Derechos de Copyright
+            . Link a Edix
+        -->
         <div class="footer_terminal top-space">
             <h6>Grupo 4 2023</h6>
             <h6>Todos los derechos reservados</h6>

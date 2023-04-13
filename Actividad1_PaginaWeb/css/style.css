@@ -417,6 +417,15 @@ hr {
 
 }
 
+/* SOMOS */
+
+.divider{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+    
+}
+
 .cnt_team{
     display: flex;
     justify-content: center;
@@ -453,47 +462,60 @@ hr {
 
 
 footer {
+    /*Eliminamos */
     clear: both;   
     padding-top: 0px;
     
 }
 
+
 footer hr{
-    width: 50%;
-    margin: auto;
+    /*Da margen para ubicar la linea correctamente*/
+    margin: auto ;
     margin-top: 10px;
     margin-bottom: 20px;
+
+    /*Tamaño reducido*/
+    width: 50%;
+    
+    /*Centramos la línea*/
     align-self: center;
 }
 
 .grid-footer{
+    /*
+        Forma una estructura de grid automática dependiendo del numero de "items" 
+        directos contenidos con una separación de 3rem entre ellos.
+        En nuestro caso tenemos 3. "Bloque Empresa", "bloque redes" y "bloque nosotros"    
+    */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    
     gap: 3rem;
 }
 
-.grid-footer hr{
-    width: 150px;
-}
-
-.grid-footer h2{
+/*Ubica correctamente los títulos de la columna del grid*/
+.grid-footer h2{    
     text-align: center;
 }
 
+/*Ubica correctamente la "descripción" del <footer>*/
 #footer-description{
     text-align: center;
     margin: 0px 25px;
 }
 
-
+/*Da un margen algo mayor para que se ajusten bien los "contendores" del bloque "nosotros"*/
 .inner-box-footer{
     margin: 10px;
 }
+
+/*Sitúa a la derecha los títulos del bloque "nosotros"*/
 .inner-box-footer h2{
     text-align: left;
     
 }
+
+/*Ajusta el tamaño de la imagen correspondiente y le da un poco más de margen para que encaje bien en el <footer>*/
 .inner-box-footer img {
     float: left;
     margin-right: 25px;
@@ -502,21 +524,29 @@ footer hr{
     height: 50px;
 }
 
+/* 
+    Agrupa las distintas "redes" flexíblemente y centrada con una separación entre ellos para 
+    que exista "huecos vacíos" entre ellos
+*/
 .social-media{
     display: flex;
     justify-content: center;
+    gap: 35px;
 }
+/*Cambia el tamaño de las imágenes para que quepan*/
 .social-media img{
     width: 50px;
     height: 50px;
-    margin: 25px;
+    
 }
 
+/*Sitúa el bloque "terminal" con una pequeña separación*/
 .footer_terminal{
     margin: 10px 0px;
     text-align: center;
 }
 
+/*Agrupa en línea los datos de la terminal y le da una pequeña separación*/
 .footer_terminal h6{
     display: inline;
     margin-right: 10px;
