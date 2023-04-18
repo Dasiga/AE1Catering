@@ -234,7 +234,14 @@ justify-content: space-between;
     grid-auto-rows: auto;
     grid-gap: 3rem;
 }
+.menu-contenido{
 
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+}
 .product{
     padding-bottom: 35px;
     text-align: center;
@@ -330,8 +337,31 @@ hr {
     padding-bottom: 35px;
     box-shadow: 0 0 0 5px rgba(64, 123, 226, 0.2);
     border-radius: 5px;
+    
 }
 
+
+.articulo-menu{
+    
+    padding-bottom: 35px;
+    box-shadow: 0 0 0 5px rgba(64, 123, 226, 0.2);
+    border-radius: 5px;
+
+}
+.articulo-menu img{
+    width: 400px;
+    height: 400px;
+}
+
+.link-decoration{
+    border-radius: 15px;
+    background-color: #ee9003;
+    color: white !important;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
 
 .articulo-blog img{
     width: 35%;
