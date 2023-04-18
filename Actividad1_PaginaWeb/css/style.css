@@ -710,6 +710,10 @@ footer hr{
     color: #ff9f0d;
 }
 
+.imagen-target{
+    width: 400px;
+}
+
 /*Dejamos espacio a este contenedor*/
 .addDrink-container{
     margin: 50px 150px;
