@@ -44,62 +44,159 @@
     </section>
 
     <main class="products container">
-        <h2>Quienes somos</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rerum natus ratione ut, quis sed tempore
-            recusandae eligendi porro? Modi aspernatur adipisci facere voluptas fugit repellendus eum hic sapiente
-            corrupti.
-        </p>
+        <!-- 
+            Contenedor del título y el slogan -->
+        <div class = "main somos container">
+            <h2>Quienes somos</h2>
+            <hr class="divider">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rerum natus ratione ut, quis sed tempore
+                recusandae eligendi porro? Modi aspernatur adipisci facere voluptas fugit repellendus eum hic sapiente
+                corrupti.
+            </p>
+            
+            
+        </div>
 
+        <!-- Titulo y separador de "Equipo"-->
+        <h2 id="team-id">Equipo</h2>
+        <hr class="divider">
+        
+        <!-- Contenedor de los miembros del equipo -->
+        <div class="cnt_team">
+
+            <!--
+                 Cada grupo  contiene el "avatar" el "nombre" y el "correo" de un miembro del equipo
+                 Como el avatar tendrá un formato "circular" se le asignó una clase
+            -->
+            <div class="cnt_avatar">
+                <img class="circle_image" src="images/myAvatar1.png">
+                <h3>Pablo</h3>
+                <h5>pablotecchia@edix.es</h5>
+            </div>  
+            <div class="cnt_avatar">
+                <img class="circle_image" src="images/myAvatar1.png">
+                <h3>Pablo</h3>
+                <h5>pablotecchia@edix.es</h5>
+            </div>  
+            <div class="cnt_avatar">
+                <img class="circle_image" src="images/myAvatar1.png">
+                <h3>Pablo</h3>
+                <h5>pablotecchia@edix.es</h5>
+            </div>  
+            <div class="cnt_avatar">
+                <img class="circle_image" src="images/myAvatar1.png">
+                <h3>Pablo</h3>
+                <h5>pablotecchia@edix.es</h5>
+            </div>  
+
+        </div> 
+        
+        <!-- Contenedor de "Compromisos"-->
+        <section class="compromisos-section">
+            <h2>Nuestros Compromisos</h2>
+            <hr class="divider">
+
+            <!--  
+                Grupo formado por el "título" del contenido, su "imagen" y una "descripción"
+                del mismo
+
+                Para poder darle el formato deseado, se le asignó a cada <> dentro una clase
+            -->
+            <div class="compromiso_content">
+                <h4 class="compromiso_title">COMPROMISO</h4>
+                <img class="compromiso_photo" src="images/_compromisos1.jpg">
+                <p class="compromiso_body">
+                    Integer eleifend euismod lacus, quis mollis metus vehicula ut.
+                     Nam tortor turpis, gravida tristique libero quis, scelerisque scelerisque velit.
+                      Fusce a malesuada urna. Nullam sit amet bibendum est, sed gravida mauris. 
+                      Fusce ullamcorper nunc ut sapien rutrum, nec laoreet diam euismod. 
+                      Aenean vel ex felis. Etiam condimentum placerat facilisis. 
+                      Quisque egestas pharetra eleifend. Suspendisse ac eleifend erat, vitae eleifend tellus. 
+                    Etiam aliquam venenatis est. 
+                    Phasellus arcu nisl, congue in odio sed, ultrices suscipit elit.            
+                </p>
+            </div>
+
+            <div class="compromiso_content">
+                <h4 class="compromiso_title">COMPROMISO</h4>
+                <img class="compromiso_photo" src="images/_compromisos2.jpg">
+                <p class="compromiso_body">
+                    Integer eleifend euismod lacus, quis mollis metus vehicula ut.
+                     Nam tortor turpis, gravida tristique libero quis, scelerisque scelerisque velit.
+                      Fusce a malesuada urna. Nullam sit amet bibendum est, sed gravida mauris. 
+                      Fusce ullamcorper nunc ut sapien rutrum, nec laoreet diam euismod. 
+                      Aenean vel ex felis. Etiam condimentum placerat facilisis. 
+                      Quisque egestas pharetra eleifend. Suspendisse ac eleifend erat, vitae eleifend tellus. 
+                    Etiam aliquam venenatis est. 
+                    Phasellus arcu nisl, congue in odio sed, ultrices suscipit elit.            
+                </p>
+            </div>
+        </section>
     </main>
 
-    <hr>
-
+   
     <footer class="footer container">
-        <div class="footer-links">
-            <div class="link">
-                <h3>Food</h3>
-                <div class="socials">
-                    <img src="images/s1.svg" alt="">
-                    <img src="images/s2.svg" alt="">
-                    <img src="images/s3.svg" alt="">
-                    <img src="images/s4.svg" alt="">
+        <!-- 
+            Contendor basado en un "grid" de 3 columnas nuestro footer:
+                . Nombre de la empresa y una slogan
+                . Redes sociales
+                . Datos sobre nosotros como "telefono", "dirección" y "email"
+            Con un testimonio al final
+        -->
+        <div class="grid-footer">
+            <!-- Grupo contenedor para poder dar formato al grid-->
+            <div class="box-footer">
+                <h2>Empresa</h2>
+                <hr/>
+                <p id="footer-description">Cras ut diam quis quam pulvinar venenatis eget a libero. 
+                    Curabitur varius scelerisque ante, convallis semper mi varius a. 
+                </p>
+            </div>
+            <div class="box-footer">
+                <h2>Siguenos</h2>
+                <hr/>
+                <!-- Contenedor de iconos con link para poder editarlo en css -->
+                <div class="social-media"> 
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram_log.png" ></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="images/twitter_log.png" href = ""></a>                    
+                    <a href="https://facebook.com/" target="_blank"><img src="images/facebook_log.png" href = ""></a>
+                    
                 </div>
-
             </div>
-
-            <div class="link">
-                <h3>Lorem</h3>
-                <ul>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                </ul>   
+            <div class="box-footer">
+                <h2>Contacta con nosotros</h2>
+                <hr>    
+                <!--Contenedor con "imagen" "titulo" y "cuerpo"
+                    para dar un formato en css con "float" a la "imagen"
+                -->
+                <div class="inner-box-footer">
+                    <img id="phone_id" src="images/phone_log.png">
+                    <h2>Telefono</h2>
+                    <p>000 000 000</p>
+                </div>
+                <div class="inner-box-footer">
+                    <img id="direction_id" src="images/direction_log.png">
+                    <h2>Dirección</h2>
+                    <p>Calle Zurich, 31, 28232 Las Rozas de Madrid, Madrid</p>
+                </div>
+                <div class="inner-box-footer">
+                    <img src="images/email_log.png">
+                    <h2>Email</h2>
+                    <p>info@edix.com</p>
+                </div>
             </div>
-            <div class="link">
-                <h3>Lorem</h3>
-                <ul>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                </ul>   
-            </div>
-            <div class="link">
-                <h3>Lorem</h3>
-                <ul>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                </ul>   
-            </div>
+        </div>  
+        <!-- Contenedor para dar formato al terminal
+            . Link a Derechos de Copyright
+            . Link a Edix
+        -->
+        <div class="footer_terminal top-space">
+            <h6>Grupo 4 2023</h6>
+            <h6>Todos los derechos reservados</h6>
+            <h6>Trabajo realizado por estudiantes de <a href="https://www.edix.com/es/" target="_blank">Edix</a></h6>
         </div>
     </footer>
-
-
-
 </body>
 
 </html>
