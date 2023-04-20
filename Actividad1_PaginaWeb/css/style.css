@@ -247,6 +247,11 @@ body {
     border-radius: 10px;
 }
 
+.products {
+    padding: 80px 0;
+    text-align: center;
+}
+
 .products h2{
     font-size: 45px;
     color: #303030;
