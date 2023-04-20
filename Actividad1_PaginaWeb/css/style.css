@@ -244,6 +244,40 @@ body {
     margin-bottom: 100px;
     text-align: center;
     border: #ff9f0d 35px solid;
+    border-radius: 10px;
+}
+
+.products h2{
+    font-size: 45px;
+    color: #303030;
+    margin-bottom: 30px;
+}
+
+.products p{
+    font-size: 18px;
+    color: #545454;
+    margin-bottom: 70px;
+    padding: 0 200px;
+}
+
+.product-info {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: auto;
+    grid-gap: 3rem;
+}
+
+.menu-contenido{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+}
+.product{
+    padding-bottom: 35px;
+    text-align: center;
+    box-shadow: 0 0 0 5px rgba(0,0,0,0.1);
     border-radius: 50px;
 }
 
@@ -274,6 +308,7 @@ body {
     display: flex;
     gap: 25px;
     margin:10px;
+
 
 }
 
@@ -388,8 +423,31 @@ hr {
     padding-bottom: 35px;
     box-shadow: 0 0 0 5px rgba(64, 123, 226, 0.2);
     border-radius: 5px;
+    
 }
 
+
+.articulo-menu{
+    
+    padding-bottom: 35px;
+    box-shadow: 0 0 0 5px rgba(64, 123, 226, 0.2);
+    border-radius: 5px;
+
+}
+.articulo-menu img{
+    width: 400px;
+    height: 400px;
+}
+
+.link-decoration{
+    border-radius: 15px;
+    background-color: #ee9003;
+    color: white !important;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
 
 .articulo-blog img{
     width: 35%;
@@ -843,3 +901,13 @@ footer hr{
 }
 
 
+.menu-original{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+}
+
+.header-content-2 {
+    display: block;
+}
