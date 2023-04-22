@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://kit.fontawesome.com/4bfd0d17b3/css/font-awesome.min.css">
 </head>
 
-<body>
+<body class="contact-body">
 
     <header class="header">
         <div class="menu container">
@@ -38,9 +39,26 @@
     <main class="products container">
         <h2>Contacto</h2>
         <p>
-            Aqui va el formulario de contacto.
+            ¿Tienes alguna duda? Ponte en contacto con nosotros.
         </p>
-
+        <div class="container-form">
+            <div class="info-form">
+                <a href="#"><i class="fa-sharp fa-light fa-phone"></i> 987-654-321</a>
+                <a href="mailto: catering@gmail.com"><i class="fa-sharp fa-light fa-envelope"></i> catering@gmail.com</a>
+                <a href="#"><i class="fa-sharp fa-light fa-location-dot"></i> Madrid, España</a>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12151.397434878354!2d-3.7081810476463546!3d40.41218784881834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42289a4a865227%3A0x98278b3a144a86f1!2sPuerta%20de%20Alcal%C3%A1!5e0!3m2!1ses!2ses!4v1681807920194!5m2!1ses!2ses" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        <form action="gracias.html" method="get" autocomplete="off" class="formulario">
+            <input type="text" name="nombre" placeholder="Nombre:" class="campo">
+            <input type="email" name="email" placeholder="Correo electrónico:" class="campo">
+            <textarea placeholder="Escribe tu mensaje:" class="campo"></textarea>
+            <input class="btn-content button-contact" type="submit" name="enviar"
+            value="Enviar mensaje" class="boton-enviar">
+        </form>
+             
+          </div>
     </main>
 
     <hr>
