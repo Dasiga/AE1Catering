@@ -369,9 +369,11 @@ hr {
 
 
 /* Estilos del footer de la pagina principal */
+/*
 .footer {
     padding: 100px 0;
 }
+*/
 
 .footer-links {
     display: flex;
@@ -643,11 +645,6 @@ footer hr{
 /*Da un margen algo mayor para que se ajusten bien los "contendores" del bloque "nosotros"*/
 .inner-box-footer{
     margin: 10px;
-}
-
-/*Sitúa a la derecha los títulos del bloque "nosotros"*/
-.inner-box-footer h2{
-    text-align: left;
     
 }
 
@@ -657,8 +654,8 @@ footer hr{
     margin-right: 25px;
     margin-bottom: 20px;
     
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 /* 
@@ -974,3 +971,22 @@ align-content: center;
     align-items: center;
     margin-bottom: 50px;
 }
+
+
+
+/* MONTAJE */
+
+header{
+    margin-top: 25px;
+}
+
+footer{
+    background-color: orange;
+    padding: 10px 20%;
+    padding-top: 50px;
+}
+
+.ignore-float{
+    clear: both;
+}
+
