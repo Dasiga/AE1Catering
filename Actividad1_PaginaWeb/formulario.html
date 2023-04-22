@@ -92,9 +92,31 @@
                             <div>
                                 <label for="menupedido">Menú a pedir: </label>
                                 <br />	
-                                <input type="radio" name="menupedido" value="D" /> Desayuno<br />	
-                                <input type="radio" name="menupedido" value="S" /> Salado<br />	
-                                <input type="radio" name="menupedido" value="C" checked/> Cóctel<br />
+                                <div class="opciones-pedido">
+                                    <input type="radio" name="menupedido" value="D" /> Desayuno<br />	
+                                    <select name="opcion" id="scolt-right">
+                                        <option>Menu 1</option>
+                                        <option>Menu 2</option>
+                                        <option>Menu 3</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="opciones-pedido">
+                                    <input type="radio" name="menupedido" value="S" /> Salado<br />	
+                                    <select name="opcion" id="scolt-right">
+                                        <option>Menu 1</option>
+                                        <option>Menu 2</option>
+                                        <option>Menu 3</option>
+                                        <option>Menu 4</option>
+                                    </select>
+                                </div>
+                                <div class="opciones-pedido">
+                                    <input type="radio" name="menupedido" value="C" checked/> Cóctel<br />
+                                    <select name="opcion" id="scolt-right">
+                                        <option>Menu 1</option>
+                                        <option>Menu 2</option>                                        
+                                    </select>
+                                </div>                         
                             </div>                       
                         </div>
                     </fieldset>

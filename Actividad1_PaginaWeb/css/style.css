@@ -994,3 +994,14 @@ footer{
 .space-top{
     margin-top: 150px;
 }
+
+
+.opciones-pedido{
+    display: grid;
+    /*grid-template-columns: auto repeat(3, 1fr);*/
+    grid-template-columns: auto 1fr .5fr;
+    gap: 10px;
+    
+    margin-right: 500px;
+}
+
