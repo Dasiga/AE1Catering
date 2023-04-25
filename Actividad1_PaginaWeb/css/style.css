@@ -623,47 +623,7 @@ hr {
     }
 
 }
-
-/* SOMOS */
-
-.divider{
-    width: 50%;
-    margin: auto;
-    margin-bottom: 50px;
-    
-}
-
-.cnt_team{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 50px;
-
-    margin-bottom: 50px;
-}
-
-.circle_image{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-}
-
-.compromiso_content{
-   float: left;
-}
-
-
-.compromiso_photo{
-    width: 500px;
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
-
-.compromiso_body{
-    text-align: justify;
-}
-
-
+/*SOMOS*/
 
 /* FOOTER */
 

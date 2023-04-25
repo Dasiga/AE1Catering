@@ -1,0 +1,82 @@
+
+/* SOMOS */
+
+/*Centra y modifica su tamaño*/
+hr{
+    
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+/*El último <hr> no queremos que sea un divisior de contenido*/
+hr:last-of-type{
+    width: 100%;
+}
+
+/*Agrupa a los miembros del equipo*/
+.cnt_team{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    margin-bottom: 50px;
+}
+
+/*Da forma a los avatares dandole un estilo redondo*/
+.circle_image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+/*Agrupa los compromisos de la empresa en 2 columnas*/
+ .compromiso-grid{
+    display: grid;
+    grid-template-columns:  repeat(2, 50%);
+}
+
+/*Ajusta los elementos del grid para evitar desplazamientos y ubicaciones no deseadas*/
+.compromiso_content{
+    display: grid;
+    grid-template-rows: 120px 340px auto;
+
+    justify-content: center;
+
+}
+
+/*Centra el título*/
+.compromiso_title{
+    padding: 0px 20px;
+
+}
+
+/*Modifica la imágen*/
+.compromiso_photo{
+    margin: auto;
+    width: 400px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+/*Ajusta el el ancho del texto*/
+.compromiso_body{
+    text-align: justify;
+    margin: 0px 10%;
+}
+
+/*Ajustes temporales debido a la estructura básica*/
+main h2{
+    font-size: 45px;
+    color: #303030;
+    margin-bottom: 30px;
+}
+
+main h3{
+    font-size: 32px;
+    color: #303030;
+    margin-bottom: 30px;
+}
+
+ 

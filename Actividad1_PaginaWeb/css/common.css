@@ -15,6 +15,8 @@ a{
     color: black;   
 }
 
+
+
 /*Diseño de botón estándar*/
 .button{
     border: none;
@@ -25,6 +27,19 @@ a{
     border-radius: 15px;
 }
 
+main{
+    /*Centra el contenido*/
+    margin: 0 auto;
+    max-width: 1200px;
+
+    text-align: center;
+}
+
+/*Cambiamos la fuente base*/
+body { 
+    font-family: 'Poppins', sans-serif;
+}
+
 /*______________________________________________________
     HEADER
 ----------------
@@ -32,6 +47,9 @@ a{
     de la etiquieta <header>
 */
 
+header{
+    background-color: #ff9f0d;
+}
 
 /*______________________________________________________
     FOOTER
