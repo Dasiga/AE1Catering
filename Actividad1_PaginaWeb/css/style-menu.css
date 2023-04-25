@@ -1,0 +1,24 @@
+.articulo-menu img{
+    width: 400px;
+    height: 400px;
+}
+
+.link-decoration{
+    border-radius: 15px;
+    background-color: #ee9003;
+    color: white !important;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+
+.menu-original{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 30px;
+
+    gap: 30px;
+}
