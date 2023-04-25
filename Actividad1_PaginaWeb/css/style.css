@@ -46,12 +46,14 @@ body {
 }
 .container-form form .campo{
     width: 90%;
-    background-color: #364552;
-    color: white;
+    /*background-color: #364552;*/
+    background-color: rgba(255, 166, 0, 0.212);
+    /*color: white;*/
+    color: black;
     margin: 15px 20px 25px;
     padding: 25px 20px 15px;
     font-size: 15px;
-    border: 1px white solid;
+    border: 1px orange solid;
     margin-bottom: 20px;
     border-radius: 3px;
     display: grid;
@@ -71,12 +73,21 @@ body {
 
 .formulario{
     
-    max-height: 400px;
+    max-height: 500px;
     max-width: 800px;
     direction: right;
+    border: 5px solid orange;
+    /*
     background-color: #364552;
     border: 5px #ee9003 inset;
+    */
     border-radius: 3px;
+}
+
+.container-form a{
+    text-decoration: none;
+    opacity: 70%;
+    font-size: 15;
 }
 
 /* Danilo links
@@ -122,7 +133,6 @@ a:active{
     color: #303030;
     font-size: 25px;
     font-weight: 800;
-
 }
 
 
@@ -504,19 +514,12 @@ hr {
 
 .articulo-blog {
     padding-bottom: 35px;
-    box-shadow: 0 0 0 5px rgba(64, 123, 226, 0.2);
+    box-shadow: 0 0 0 5px orange;    
+    /*rgba(64, 123, 226, 0.2);*/
     border-radius: 5px;
     
 }
 
-
-.articulo-menu{
-    
-    padding-bottom: 35px;
-    box-shadow: 0 0 0 5px rgba(64, 123, 226, 0.2);
-    border-radius: 5px;
-
-}
 .articulo-menu img{
     width: 400px;
     height: 400px;
@@ -532,6 +535,11 @@ hr {
 
 }
 
+
+.articulo-blog{
+    
+}
+
 .articulo-blog img{
     width: 35%;
     height: 250px;
@@ -544,7 +552,7 @@ hr {
     font-size: 20px;
     text-align: left;
     color: #030303;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-left: 75px;
     margin-bottom: 5px;
 
@@ -683,6 +691,7 @@ footer {
     
     margin-top: 50px;
 }
+
 
 
 footer hr{
@@ -1060,9 +1069,13 @@ header{
 }
 
 footer{
-    background-color: darkgray;
+    background-color: rgba(255, 166, 0, 0.651);
     padding: 10px 20%;
     padding-top: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
 }
 
 .ignore-float{
@@ -1086,3 +1099,4 @@ footer{
 .button-contact{
     color: white;
 }
+
