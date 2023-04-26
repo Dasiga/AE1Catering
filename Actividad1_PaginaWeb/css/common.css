@@ -275,21 +275,8 @@ footer hr{
 }
 
 
-
-  
-
-/* Resolucion para tablets Vertical y moviles horizontal*/
-@media(max-width: 788px){
-    body{
-        background-color: red;
-
-    }
-
-  
-}
-
 /* Resolucion para moviles verticaL */
-@media(max-width: 480px){
+@media((min-width: 0px ) and (max-width: 480px)){
 
 body {
     background-color: purple;

@@ -1,5 +1,5 @@
 /* Resolucion para tablets Horizontal */
-@media(max-width: 1024px){
+@media( (min-width: 766px ) and (max-width: 1024px)){
     body{
         background-color: lightblue;
         padding: 10px;
@@ -35,6 +35,10 @@
         grid-gap: 25px;
     }
     
+    .menus-contenido{
+        flex-direction: column;
+        margin: auto;
+    }
 
     
 }

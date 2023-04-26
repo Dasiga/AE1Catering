@@ -1,0 +1,45 @@
+/* Resolucion para tablets Vertical y moviles horizontal*/
+@media(max-width: 765px){
+    body{
+        background-color: lightcoral;
+        padding: 0px;
+    }
+
+    .header-info {
+        flex-direction: column;
+    }
+
+    .btn-1 {
+        position: relative;
+        top: 500px;
+        visibility: hidden;
+    }
+
+    .header-txt {
+        width: 75%;
+    }
+
+    .header-img{
+        width: 75%;
+    }
+
+    
+    .calidad-txt{
+        width: 75%;
+        margin: auto;
+        margin-top: 50px;
+        flex-direction: column-reverse;
+        flex-wrap: wrap ;
+    }
+
+    .calidad-img {
+    width: 100%;
+    }
+
+    .menus-contenido{
+        flex-direction: column;
+        margin: auto;
+    }
+   
+
+}
