@@ -26,23 +26,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
 @media(max-width: 991px){
 
     .menu{
@@ -92,24 +75,6 @@
         display: initial;
     }
 }
-
-/*Movile web page*/
-
-@media screen and (max-width: 700px) {
-    
-    .menu-content-display{
-        transform: scale(.75);
-    }
-
-    .menu-box{
-        width: 100%;
-        
-    }
-}
-*/
-
-
-
 
 
 
