@@ -1,5 +1,6 @@
 /* MENU POSTERS*/
 
+
 /*El contenedor agrupará los elmentos para que se encuentren centrados uno al lado de otro y permita adaptarse según la anchura de la pantalla*/
 .menu-content-display{
     display: flex;
@@ -23,9 +24,13 @@
 
     /*Le damos un nuevo color*/
     color: white;
-    
+
 }
 
+/*Tamaño máximo de 250 px para controlar su resolución máxima*/
+.menu-poster img{
+    max-width: 250px;
+}
 
 .menu-box{
     /*Le damos un borde para situarlo en pantalla*/
@@ -67,7 +72,7 @@
 
 /*Agrupamos 2 títulos uno al lado de otro*/
 .titles-scolt{
-    display: flex;
+   
     gap: 5px;
     margin-bottom: 5px;
 }
@@ -125,9 +130,9 @@
     text-align: left;
     grid-template-columns: repeat(2, 50%);
     margin: auto;
-    width: 700px;
+
     margin-bottom: 50px;
-    padding-left: 100px;
+    padding-left: 15%;
 }
 
 /*Ponemos puntos a las etiquetas de <li>*/
@@ -148,13 +153,9 @@
     color: #ff9f0d;
 }
 
-.imagen-target{
-    width: 400px;
-}
-
 /*Dejamos espacio a este contenedor*/
 .addDrink-container{
-    margin: 50px 150px;
+    margin: 50px 10%;
     text-align: left;
 }
 
@@ -178,6 +179,7 @@
 
 
 .btn-content{
+    border: 0px;
     background-color: #ff9f0d;
     border-radius: 10px;
     padding: 10px;

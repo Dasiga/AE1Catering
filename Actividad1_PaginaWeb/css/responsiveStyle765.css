@@ -122,4 +122,35 @@
     .articulo-blog a{        
         order: 6;
     }
+
+
+    /*Menuses*/
+
+    .menu-content-display{
+        width: 80%;    
+    }
+
+    /*Cambiamos el tamaño para que se adapte al ancho de la pantalla*/
+    .menu-box{
+        width: 100%;
+        min-width: 0px;
+    }
+    /*Para evitar que se coloquen mal bajaremos los títulos escolta*/
+    .titles-scolt{        
+        display: block;
+    }
+    .scolt{
+        top: 0px;
+        margin-bottom: 10px;        
+    }
+
+    .grid-center-two{
+        display: block;
+        
+    }
+
+    
+    /*Contacto*/
+    
+
 }
