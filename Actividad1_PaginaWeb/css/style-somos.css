@@ -2,9 +2,7 @@
 /* SOMOS */
 /*Main de somos para no confundir con otros mains*/
 
-main{
-    padding: 0px 10%;
-}
+
 
 /*Centra y modifica su tamaño*/
 hr{
@@ -29,6 +27,8 @@ hr:last-of-type{
     margin-bottom: 50px;
 }
 
+
+
 /*Da forma a los avatares dandole un estilo redondo*/
 .circle_image{
     width: 250px;
@@ -45,12 +45,7 @@ hr:last-of-type{
 /*Ajusta los elementos del grid para evitar desplazamientos y ubicaciones no deseadas*/
 .compromiso_content{
     display: grid;
-    /*
-        Se utiliza vw para mantener el formato de altura de la fila 2
-        mientras se modifica el escalado de la imagen
-    
-    */
-    grid-template-rows: 150px 30vw auto;
+    grid-template-rows: 150px 370px auto;
 
     justify-content: center;
 
@@ -92,4 +87,14 @@ main h3{
     margin-top: 30px;
 }
 
+/*Acercamos más los emails a los nombres*/
+main a{
+    position: relative;
+    bottom: 25px;
+}
+
+/*Dejamos espacio después de un párrafo*/
+main p{
+    margin-bottom: 30px;
+}
  

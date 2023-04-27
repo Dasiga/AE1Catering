@@ -37,6 +37,16 @@
         margin-top: 5px;
     }
 
+    /*Somos*/
+    .compromiso_content{
+        /*
+            Se utiliza vw para mantener el formato de altura de la fila 2
+            mientras se modifica el escalado de la imagen
+        
+        */
+        grid-template-rows: 150px 30vw auto;
+    
+    }
  
      /*Contacto*/
     /*Cambiamos la disposición del para que se pongan uno encima de otro*/
