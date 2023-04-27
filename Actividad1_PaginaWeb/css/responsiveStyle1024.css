@@ -1,5 +1,27 @@
 /* Resolucion para tablets Horizontal */
 @media( (min-width: 766px ) and (max-width: 1024px)){
+    /*Footer*/
+
+    /*Cambiamos el display para que se vea en columna y no quede un grid raro*/
+    .grid-footer{
+        display: flex;
+        flex-direction: column;      
+        
+    }
+
+    /*Centramos el párrafo para que no esté demasiado cerca de los laterales*/
+    #footer-description{
+        margin: 0px 20%;
+    }
+
+    /*Con estos márgenes centramos el contenido y entre ello deja de haber inconsistencias*/
+    .inner-box-footer{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 15px;
+    }
+
+    /*Index*/
     body{
         background-color: lightblue;
         padding: 10px;
@@ -40,5 +62,5 @@
         margin: auto;
     }
 
-    
+
 }

@@ -1,5 +1,10 @@
 
 /* SOMOS */
+/*Main de somos para no confundir con otros mains*/
+
+main{
+    padding: 0px 10%;
+}
 
 /*Centra y modifica su tamaño*/
 hr{
@@ -40,7 +45,12 @@ hr:last-of-type{
 /*Ajusta los elementos del grid para evitar desplazamientos y ubicaciones no deseadas*/
 .compromiso_content{
     display: grid;
-    grid-template-rows: 120px 340px auto;
+    /*
+        Se utiliza vw para mantener el formato de altura de la fila 2
+        mientras se modifica el escalado de la imagen
+    
+    */
+    grid-template-rows: 150px 30vw auto;
 
     justify-content: center;
 
@@ -54,8 +64,9 @@ hr:last-of-type{
 
 /*Modifica la imágen*/
 .compromiso_photo{
+    align-self: center;
     margin: auto;
-    width: 400px;
+    width: 80%;
     margin-bottom: 25px;
     margin-top: 25px;
 }

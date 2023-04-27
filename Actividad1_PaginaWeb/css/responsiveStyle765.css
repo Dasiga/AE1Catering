@@ -1,5 +1,10 @@
 /* Resolucion para tablets Vertical y moviles horizontal*/
 @media(max-width: 765px){
+    
+    /*Footer*/
+
+
+    /*Index*/
     body{
         background-color: lightcoral;
         padding: 0px;
@@ -42,4 +47,24 @@
     }
    
 
+    /*Somos*/
+
+
+    /*Ponemos en columna el grid*/
+    .compromiso-grid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*Ponemos el contenido de cada apartado del grid en columna*/
+    .compromiso_content{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /**/
+    .compromiso_photo{
+       
+        margin-top: 0px;
+    }
 }
