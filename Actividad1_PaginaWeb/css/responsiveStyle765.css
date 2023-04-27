@@ -149,8 +149,46 @@
         
     }
 
-    
-    /*Contacto*/
-    
+       /*Contacto*/
+    /*Cambiamos la disposición del para que se pongan uno encima de otro*/
+    .container-form{   
+        display: flex;
+        flex-direction: column;        
+    }
+    /*Los ponemos en línea*/
+    .container-form a {
+        display: inline;
+        gap: 10px;        
+    }
+    /*Separamos el contenido con el de arriba*/
+    .mapa{
+        width: 80%;
+  
+        max-width: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .formulario{
+        margin: auto;
+        width: 80%;
+        max-width: 100%;
+        padding-bottom: 20px;
+    }
+
+    /*Formulario*/
+    /*
+        Para cuando los campos se vean recortados modificamos el tamaño
+        el min-width es para el campo observaciones
+    */
+    .mi-formulario fieldset {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    /*Permitimos el resize para que encaje dentro de los márgenes*/
+    .mi-formulario fieldset textarea {
+        width: 100%;
+        resize: horizontal;
+    }
 
 }

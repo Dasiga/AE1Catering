@@ -1,3 +1,6 @@
+main{
+    padding: 0px 5%;
+}
 
 .container-form{
     width: 100%;
@@ -42,7 +45,7 @@
 }
 
 
-.textarea{
+.textarea{  
     overflow: scroll;
     resize: none;
     max-width: 530px;
@@ -57,10 +60,7 @@
     max-width: 800px;
     direction: right;
     border: 5px solid orange;
-    /*
-    background-color: #364552;
-    border: 5px #ee9003 inset;
-    */
+ 
     border-radius: 3px;
 }
 
