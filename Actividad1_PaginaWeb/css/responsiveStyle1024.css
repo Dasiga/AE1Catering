@@ -21,15 +21,15 @@
         margin-bottom: 15px;
     }
 
+    footer{
+        padding: 0px;
+    }
+    
     /*Index*/
     body{
         background-color: lightblue;
         padding: 10px;
-    }
-
-    footer{
-        padding: 0px;
-    }
+    }    
 
     .producto p{
         height: 350px;
@@ -37,16 +37,8 @@
         margin-top: 5px;
     }
 
-    
-    .articulo-blog img{
-        width: 35%;
-        height: 250px;
-        float: right;
-        margin-right: 25px;
-        margin-left: 25px;
-        margin-top: 25px;
-    }
-
+  
+    /*Formulario*/
     .formulario{
         margin-right: 5px;
     }
