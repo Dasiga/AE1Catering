@@ -1,0 +1,194 @@
+/* Resolucion para tablets Vertical y moviles horizontal*/
+@media(max-width: 765px){
+    
+    /*Footer*/
+
+
+    /*Index*/
+    body{
+        background-color: lightcoral;
+        padding: 0px;
+    }
+
+    .header-info {
+        flex-direction: column;
+    }
+
+    .btn-1 {
+        position: relative;
+        top: 500px;
+        visibility: hidden;
+    }
+
+    .header-txt {
+        width: 75%;
+    }
+
+    .header-img{
+        width: 75%;
+    }
+
+    
+    .calidad-txt{
+        width: 75%;
+        margin: auto;
+        margin-top: 50px;
+        flex-direction: column-reverse;
+        flex-wrap: wrap ;
+    }
+
+    .calidad-img {
+         width: 100%;
+    }
+
+    .menus-contenido{
+        flex-direction: column;
+        margin: auto;
+    }
+   
+
+    /*Somos*/
+
+
+    /*Ponemos en columna el grid*/
+    .compromiso-grid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*Ponemos el contenido de cada apartado del grid en columna*/
+    .compromiso_content{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /**/
+    .compromiso_photo{       
+        margin-top: 0px;
+    }
+
+
+    /*MENU Y BLOG*/
+
+    /*Cambiamos la distribución del display*/
+    .articulo-blog{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+  
+   
+    /*Modificamos el tamaño de la imagen para centrara al contenedor*/
+    .articulo-blog img{
+        /*Con la propiedad order cambio el orden de distribución*/
+        order: 2;
+
+        width: 90%;
+        margin: auto;
+        padding: auto;
+        margin-top: 5px;
+    }
+
+    /*Para que se adapte al margen y no se vea centrado*/
+    .articulo-blog p{   
+        margin-top: 20px;       
+        width: 90%;   
+    }
+
+    /*Le quitamos el margen para que se vea centrado el botón*/
+    .articulo-blog a{
+        /*Con la propiedad order cambio el orden de distribución*/
+        order: 4;
+        margin-left: 0%;
+    }
+
+    /*Ordenamos los contenedores Con la propiedad order cambio el orden de distribución*/
+    .articulo-blog h3{ 
+        order: 1;
+    }
+    .articulo-blog span{ 
+        order: 2;
+    }
+    .articulo-blog h4{
+        order: 3;
+    }
+    .articulo-blog img{        
+        order: 4;
+    }
+    .articulo-blog p{        
+        order: 5;
+    }
+    .articulo-blog a{        
+        order: 6;
+    }
+
+
+    /*Menuses*/
+
+    .menu-content-display{
+        width: 80%;    
+    }
+
+    /*Cambiamos el tamaño para que se adapte al ancho de la pantalla*/
+    .menu-box{
+        width: 100%;
+        min-width: 0px;
+    }
+    /*Para evitar que se coloquen mal bajaremos los títulos escolta*/
+    .titles-scolt{        
+        display: block;
+    }
+    .scolt{
+        top: 0px;
+        margin-bottom: 10px;        
+    }
+
+    .grid-center-two{
+        display: block;
+        
+    }
+
+       /*Contacto*/
+    /*Cambiamos la disposición del para que se pongan uno encima de otro*/
+    .container-form{   
+        display: flex;
+        flex-direction: column;        
+    }
+    /*Los ponemos en línea*/
+    .container-form a {
+        display: inline;
+        gap: 10px;        
+    }
+    /*Separamos el contenido con el de arriba*/
+    .mapa{
+        width: 80%;
+  
+        max-width: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .formulario{
+        margin: auto;
+        width: 80%;
+        max-width: 100%;
+        padding-bottom: 20px;
+    }
+
+    /*Formulario*/
+    /*
+        Para cuando los campos se vean recortados modificamos el tamaño
+        el min-width es para el campo observaciones
+    */
+    .mi-formulario fieldset {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    /*Permitimos el resize para que encaje dentro de los márgenes*/
+    .mi-formulario fieldset textarea {
+        width: 100%;
+        resize: horizontal;
+    }
+
+}

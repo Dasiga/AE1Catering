@@ -1,0 +1,92 @@
+/* Resolucion para tablets Horizontal */
+@media( (min-width: 766px ) and (max-width: 1024px)){
+    /*Footer*/
+
+    /*Cambiamos el display para que se vea en columna y no quede un grid raro*/
+    .grid-footer{
+        display: flex;
+        flex-direction: column;      
+        
+    }
+
+    /*Centramos el párrafo para que no esté demasiado cerca de los laterales*/
+    #footer-description{
+        margin: 0px 20%;
+    }
+
+    /*Con estos márgenes centramos el contenido y entre ello deja de haber inconsistencias*/
+    .inner-box-footer{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 15px;
+    }
+
+    footer{
+        padding: 0px;
+    }
+    
+    /*Index*/
+    body{
+        background-color: lightblue;
+        padding: 10px;
+    }    
+
+    .producto p{
+        height: 350px;
+        padding: 10px;
+        margin-top: 5px;
+    }
+
+    /*Somos*/
+    .compromiso_content{
+        /*
+            Se utiliza vw para mantener el formato de altura de la fila 2
+            mientras se modifica el escalado de la imagen
+        
+        */
+        grid-template-rows: 150px 30vw auto;
+    
+    }
+ 
+     /*Contacto*/
+    /*Cambiamos la disposición del para que se pongan uno encima de otro*/
+     .container-form{   
+        display: flex;
+        flex-direction: column;        
+    }
+    /*Los ponemos en línea*/
+    .container-form a {
+        display: inline;
+        gap: 10px;        
+    }
+    /*Separamos el contenido con el de arriba*/
+    .mapa{
+        margin-top: 20px;
+    }
+    .formulario{
+        margin: auto;
+        width: 80%;
+        max-width: 100%;
+        padding-bottom: 20px;
+    }
+
+  
+    /*Formulario*/
+    
+    .mi-formulario fieldset {
+        width: 100%;
+    }
+
+
+
+    /*No tocar*/
+  
+   
+    .menus-contenido{
+        flex-direction: column;
+        margin: auto;
+    }
+
+
+
+}

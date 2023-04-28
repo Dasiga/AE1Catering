@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap'); 
+
+
+/*______________________________________________________
+    GENERAL
+----------------
+    En este apartado irán todos los elementos que pueden ser
+    comunes en nuestra página así como botones, imágenes...
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+img{
+    border-radius: 25px ;
+   /* border: 4px solid orange;*/
+}
+
+/*hipervínculos con su base cambiada*/
+a{
+    text-decoration: none;
+    color: black;   
+}
+hr {
+    border: 1px solid #d8d8d8;
+}
+
+
+/*Diseño de botón estándar*/
+.button{
+    border: none;
+    background-color: #ff9f0d;
+    font-weight: 600;
+    padding: 12px;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+main{
+    /*Centra el contenido*/
+    margin: 0 auto;
+    max-width: 1200px;
+
+    text-align: center;
+}
+
+/*Cambiamos la fuente base*/
+body { 
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+
+/*______________________________________________________
+    HEADER
+----------------
+    En este apartado irán todos los elementos modificados
+    de la etiquieta <header>
+*/
+
+header{
+    background-color: #ff9f0d ;
+    /*Aquí estaba el .header*/
+    display: flex;
+    position: relative;
+
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 15px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+#menu {
+    display: none;
+}
+
+
+.menu-icono{
+    visibility: hidden;
+}
+
+.logo {
+    color: #303030;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+
+.navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.navbar ul li:hover{
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.navbar ul li ul{
+    width: 200px;
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    transition: all 1000ms ease;
+}
+
+.navbar ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.menu-vertical{
+    display: none;
+}
+
+.navbar ul li a {
+    font-size: 20px;
+    padding: 15px;
+    color: #303030;
+    display: block;
+    font-weight: 600;
+}
+
+.btn-1 {
+    display:inline-block;
+    font-weight: 600;
+    background-color: #ff9f0d;
+    padding: 13px 30px;
+    border-radius: 25px;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.btn-1:hover {
+    background-color: #ee9003;
+
+}
+
+
+/*______________________________________________________
+    FOOTER
+----------------
+    En este apartado irán todos los elementos modificados
+    de la etiquieta <footer>
+*/
+
+footer{
+    /*Estructura footer*/
+    margin-top: 50px;
+    padding: 20px 20%;
+    padding-top: 50px;
+    
+    /*Desactivamos si hubiera algún float*/
+    clear: both;   
+}
+
+
+
+footer hr{
+    /*Da margen para ubicar la linea correctamente*/
+    margin: auto ;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    /*Tamaño reducido*/
+    width: 50%;
+    
+    /*Centramos la línea*/
+    align-self: center;
+}
+
+.grid-footer{
+    /*
+        Forma una estructura de grid automática dependiendo del numero de "items" 
+        directos contenidos con una separación de 3rem entre ellos.
+        En nuestro caso tenemos 3. "Bloque Empresa", "bloque redes" y "bloque nosotros"    
+    */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+}
+
+/*Ubica correctamente los títulos de la columna del grid*/
+.grid-footer h2{    
+    text-align: center;
+}
+
+/*Ubica correctamente la "descripción" del <footer>*/
+#footer-description{
+    text-align: center;
+    margin: 0px 25px;
+}
+
+/*Da un margen algo mayor para que se ajusten bien los "contendores" del bloque "nosotros"*/
+.inner-box-footer{
+    margin: 10px;
+    
+}
+
+/*Ajusta el tamaño de la imagen correspondiente y le da un poco más de margen para que encaje bien en el <footer>*/
+.inner-box-footer img {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    
+    width: 30px;
+    height: 30px;
+
+     /*Eliminamos el elemento común para estas imágenes*/
+     border-radius: 0px;
+}
+
+/* 
+    Agrupa las distintas "redes" flexíblemente y centrada con una separación entre ellos para 
+    que exista "huecos vacíos" entre ellos
+*/
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+/*Cambia el tamaño de las imágenes para que quepan*/
+.social-media img{
+    width: 50px;
+    height: 50px;
+    
+    /*Eliminamos el elemento común para estas imágenes*/
+    border-radius: 0px;
+}
+
+/*Da más margen para que se alinee el texto*/
+#direction_id{
+    margin-top: 10px;
+}
+
+/*Sitúa el bloque "terminal" con una pequeña separación*/
+.footer_terminal{
+    margin: 10px 0px;
+    text-align: center;
+}
+
+/*Agrupa en línea los datos de la terminal y le da una pequeña separación*/
+.footer_terminal h6{
+    display: inline;
+    margin-right: 10px;
+}
+
+
+/* Resolucion para moviles verticaL */
+@media((min-width: 0px ) and (max-width: 480px)){
+
+body {
+    background-color: purple;
+}
+.menu{
+    padding: 35px;
+}
+.menu label{
+    display: initial;
+}
+
+.menu-icono{
+    visibility: visible;
+}
+
+.menu-icono:hover .navbar {
+    background-color: #030303;
+    visibility: visible;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.menu .navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #303030;
+    visibility: hidden;
+}
+
+.menu .navbar ul li  {
+    width: 100%;
+}
+
+.menu .navbar ul li  {
+    color: #ffffff;
+}
+
+.menu .navbar ul li a:hover  {
+    color: #bebebe;
+}
+
+.menu:checked ~ .navbar {
+    display: initial;
+}
+
+}
+
+/*---------------------------------*/
+/*Elementos que se podrían borrar: */
+
+/* Estilos del footer de la pagina principal */
+/*
+.footer {
+    padding: 100px 0;
+}
+*/
+/*
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+*/
+
